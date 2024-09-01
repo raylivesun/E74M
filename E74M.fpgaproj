@@ -1,0 +1,19 @@
+{
+  "Include": [
+    "*.vhd",
+    "*.vhdl",
+    "*.v",
+    "*.vcd",
+    "vhdl_ls.toml",
+    "ew5w.vhd "
+  ],
+  "Exclude": [
+    "build"
+  ],
+  "Toolchain": "Yosys",
+  "Loader": "OpenFpgaLoader",
+  "TopEntity": "E74M.vhd",
+  "TestBenches": [
+    "E74M_tb.vhd"
+  ]
+}
